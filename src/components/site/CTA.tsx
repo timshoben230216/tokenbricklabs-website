@@ -10,17 +10,17 @@ export const CTA = () => {
           <div className="max-w-2xl">
             <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-primary">Next step</p>
             <h2 id="cta-heading" className="mt-4 font-display text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
-              Map the issuance path in thirty minutes
+              See where the platform is headed
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Bring the asset class, jurisdiction, and constraint that is actually blocking you. You leave with a
-              written sequence — contracts, identity, custody, and a realistic launch window.
+              We are building TokenBrickLabs’ RWA tokenization platform. A short call covers the current scope —
+              issuance, identity, and operator workflows — and what is still in development.
             </p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row md:flex-col">
             <Button variant="hero" size="lg" className="group" asChild>
               <a href={SITE.calendly} target="_blank" rel="noopener noreferrer">
-                Book a discovery call
+                Book a call
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </a>
             </Button>

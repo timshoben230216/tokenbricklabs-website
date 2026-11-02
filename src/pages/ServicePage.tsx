@@ -43,7 +43,7 @@ const ServicePage = () => {
             <div className="mt-8 grid lg:grid-cols-[1.4fr_1fr] gap-12 items-start">
               <div className="animate-fade-in-up">
                 <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/80 backdrop-blur px-4 py-2 text-xs font-medium text-foreground/70 shadow-soft">
-                  TokenBrickLabs Services
+                  TokenBrickLabs platform
                 </span>
                 <h1 className="mt-6 font-display font-bold tracking-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1]">
                   <span className="text-gradient">{service.title}</span>
@@ -57,12 +57,12 @@ const ServicePage = () => {
                 <div className="mt-8 flex flex-col sm:flex-row gap-4">
                   <Button variant="hero" size="xl" className="group" asChild>
                     <a href={SITE.calendly} target="_blank" rel="noopener noreferrer">
-                      Start a Project
+                      Talk with the team
                       <ArrowRight className="ml-1 h-5 w-5 transition-transform group-hover:translate-x-1" />
                     </a>
                   </Button>
                   <Button variant="soft" size="xl" asChild>
-                    <Link to="/">Explore Other Services</Link>
+                    <Link to="/#solutions">See the platform</Link>
                   </Button>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const ServicePage = () => {
                   <div className="inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/20 to-primary-glow/10 text-primary">
                     <Icon className="h-8 w-8" />
                   </div>
-                  <h3 className="mt-6 font-display text-xl font-semibold">Tools we commonly integrate</h3>
+                  <h3 className="mt-6 font-display text-xl font-semibold">Stack in this part of the platform</h3>
                   <div className="mt-4 flex flex-wrap gap-2">
                     {service.technologies.map((t) => (
                       <span
@@ -94,10 +94,10 @@ const ServicePage = () => {
           <div className="container">
             <div className="max-w-3xl">
               <span className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
-                What you get
+                In development
               </span>
               <h2 className="mt-4 font-display text-3xl md:text-4xl font-bold tracking-tight">
-                Capabilities tailored to your <span className="text-gradient">roadmap</span>
+                What this part of the <span className="text-gradient">platform</span> covers
               </h2>
             </div>
             <div className="mt-12 grid sm:grid-cols-2 gap-6">
@@ -122,7 +122,7 @@ const ServicePage = () => {
           <div className="container">
             <div className="flex items-end justify-between flex-wrap gap-4">
               <h2 className="font-display text-2xl md:text-3xl font-bold tracking-tight">
-                Explore other services
+                Other parts of the platform
               </h2>
               <Link
                 to="/"

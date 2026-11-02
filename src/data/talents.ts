@@ -40,10 +40,10 @@ export type Talent = {
 };
 
 const STUDIO_INTRO =
-  "TokenBrickLabs is a Seattle-based blockchain studio that designs, reviews, and ships Real-World Asset tokenization software — issuance contracts, identity integrations, and operator workflows for funds, fintechs, and operators. We hire globally. Independent audit and custody are appointed by the client. We do not take discretionary custody of assets.";
+  "TokenBrickLabs is a Seattle-based team building its own Real-World Asset tokenization platform — permissioned issuance, identity integrations, and operator workflows. The platform is in development. We hire globally. Independent audit is commissioned when the threat model requires it. We do not take discretionary custody of assets.";
 
 const SHARED_BENEFITS = [
-  "Remote-first work with a Seattle studio base.",
+  "Remote-first work with a Seattle base.",
   "Flexible working hours across time zones.",
   "Equipment stipend and learning budget, as stated in the offer.",
   "Conference and travel support, when approved for the role.",
@@ -52,7 +52,7 @@ const SHARED_BENEFITS = [
 
 const ENGINEERING_CULTURE = {
   heading: "Engineering Organization & Culture",
-  body: "At TokenBrickLabs, we are engineering the institutional standard for Real-World Asset tokenization. Our mission is to ship platforms centered on security and compliance, requiring a commitment to technical excellence that extends beyond simply delivering code. As a global organization, we set a high bar for those driven to do their best work alongside world-class peers.\n\nWe value engineers who treat development as a craft and own the outcome from concept to deployment. We expect our teams to bring structure to ambiguity and shape the frameworks that support our studio. We refuse to compromise on quality and seek problem solvers who thrive on high-impact technical challenges.",
+  body: "At TokenBrickLabs, we are building our own Real-World Asset tokenization platform, and we hold it to an institutional standard. The mission is a platform centered on security and compliance, which takes more than delivering code. As a global team, we set a high bar for people who want to do their best work alongside strong peers.\n\nWe value engineers who treat development as a craft and own the outcome from concept to deployment. We expect teams to bring structure to ambiguity and shape the frameworks the platform depends on. We refuse to compromise on quality and seek problem solvers who thrive on high-impact technical challenges.",
 };
 
 const DESIGN_CULTURE = {
@@ -62,7 +62,7 @@ const DESIGN_CULTURE = {
 
 const PRODUCT_CULTURE = {
   heading: "Product Organization & Culture",
-  body: "At TokenBrickLabs, product is the sequencing of contracts, identity, custody, and the operator workflows that keep an issuance alive after launch. We do not ship theater. We ship systems institutions can run.\n\nProduct managers here write clearly, cut scope without losing the risk surface, and stay close to engineering. We expect you to bring structure to ambiguous tokenization work and to own outcomes from discovery through day-two operations.",
+  body: "At TokenBrickLabs, product is the sequencing of contracts, identity, custody integrations, and the operator workflows on our RWA platform. We do not ship theater. We are building a system institutions can run.\n\nProduct managers here write clearly, cut scope without losing the risk surface, and stay close to engineering. We expect you to bring structure to the platform and to own outcomes from the current build through day-two operations.",
 };
 
 const OPERATIONS_CULTURE = {
@@ -101,7 +101,7 @@ export const TALENTS: Talent[] = [
       "Director, Engineering",
       ENGINEERING_CULTURE,
       "The Team: Protocol Architecture",
-      "Protocol Architecture sets the contract and systems design for TokenBrickLabs issuances. We define token standards, identity hooks, upgradeability, and how protocol work lands in backend and operator products. The bar is production: audit-ready, gas-aware, and operable in regulated jurisdictions.",
+      "Protocol Architecture sets the contract and systems design for the TokenBrickLabs platform. We define token standards, identity hooks, upgradeability, and how protocol work lands in the backend and operator product. The bar is production: audit-ready, gas-aware, and operable in regulated jurisdictions.",
     ),
     responsibilities: [
       "Design and implement smart contract architecture for permissioned tokenized interests, transfers, and fractional records as defined in offering documents — not legal title to land.",
@@ -153,7 +153,7 @@ export const TALENTS: Talent[] = [
       "Director, Engineering",
       ENGINEERING_CULTURE,
       "The Team: Protocol Engineering",
-      "The Protocol Engineering team builds the smart-contract and on-chain infrastructure behind TokenBrickLabs issuances. We design permissioned token standards, transfer rules, identity rails, and lifecycle events (NAV, coupons, redemptions) that operations teams can actually run. We solve complex distributed-systems problems on a modern stack, rejecting “good enough” in favor of the engineering rigor required in regulated jurisdictions.",
+      "The Protocol Engineering team builds the smart-contract and on-chain infrastructure of the TokenBrickLabs platform. We design permissioned token standards, transfer rules, identity rails, and lifecycle events (NAV, coupons, redemptions) that operators can actually run. We solve complex distributed-systems problems on a modern stack, rejecting “good enough” in favor of the engineering rigor required in regulated jurisdictions.",
     ),
     responsibilities: [
       "Design, implement, and maintain the core issuance protocol — permissioned tokens, identity hooks, and transfer restrictions.",
@@ -198,7 +198,7 @@ export const TALENTS: Talent[] = [
     employmentType: "Full-time",
     requisitionId: "JR2001251",
     overview: aboutRole(
-      "As a Blockchain Infrastructure engineer, you will own the chain connectivity behind TokenBrickLabs issuances: execution and consensus clients, RPC gateways, indexers, and the operational procedures that keep those systems honest. This is not cloud generalism and it is not discretionary custody of client assets. You run the infrastructure our protocol and operator software call.",
+      "As a Blockchain Infrastructure engineer, you will own the chain connectivity behind the TokenBrickLabs platform: execution and consensus clients, RPC gateways, indexers, and the operational procedures that keep those systems honest. This is not cloud generalism and it is not discretionary custody of assets. You run the infrastructure our protocol and operator software call.",
     ),
     extraSections: jdExtras(
       "Engineering Manager",
@@ -207,10 +207,10 @@ export const TALENTS: Talent[] = [
       "Blockchain Infrastructure keeps TokenBrickLabs attached to the chains we settle on. We operate nodes, RPC, and indexers as a control plane: reproducible, observed, and ready for chain upgrades. Protocol Engineering defines the contracts. We make sure reads, writes, and admin transactions land on a healthy chain — and we say so when they do not.",
     ),
     responsibilities: [
-      "Operate execution and consensus clients for the networks TokenBrickLabs issuances use, including upgrades, snapshots, and peer health.",
+      "Operate execution and consensus clients for the networks the TokenBrickLabs platform uses, including upgrades, snapshots, and peer health.",
       "Design and run RPC gateways with failover, rate limits, and separate paths for internal, partner, and admin traffic.",
       "Build and maintain indexers that feed operator APIs — balances, transfers, and lifecycle events — from chain data.",
-      "Own key management for deployment and protocol-admin operations. This role does not take discretionary custody of client assets.",
+      "Own key management for deployment and protocol-admin operations. This role does not take discretionary custody of assets.",
       "Monitor finality, reorgs, disk, and sync lag; page on real failures and write the postmortem.",
       "Automate node provisioning and chain upgrades so a new network is a repeatable change, not a one-off server.",
       "Partner with Protocol Engineering and DevOps on multi-chain rollout, secrets, and audit logging.",
@@ -255,11 +255,11 @@ export const TALENTS: Talent[] = [
       },
       {
         heading: "Engineering Organization & Culture",
-        body: "At TokenBrickLabs, we are engineering the institutional standard for Real-World Asset tokenization. Our mission is to ship platforms centered on security and compliance, requiring a commitment to technical excellence that extends beyond simply delivering code. As a global organization, we set a high bar for those driven to do their best work alongside world-class peers.\n\nWe value engineers who treat development as a craft and own the outcome from concept to deployment. We expect our teams to bring structure to ambiguity and shape the frameworks that support our studio. We refuse to compromise on quality and seek problem solvers who thrive on high-impact technical challenges.",
+        body: "At TokenBrickLabs, we are building our own Real-World Asset tokenization platform, and we hold it to an institutional standard. The mission is a platform centered on security and compliance, which takes more than delivering code. As a global team, we set a high bar for people who want to do their best work alongside strong peers.\n\nWe value engineers who treat development as a craft and own the outcome from concept to deployment. We expect teams to bring structure to ambiguity and shape the frameworks the platform depends on. We refuse to compromise on quality and seek problem solvers who thrive on high-impact technical challenges.",
       },
       {
         heading: "The Team: Protocol Engineering",
-        body: "The Protocol Engineering team builds the smart-contract and on-chain infrastructure behind TokenBrickLabs issuances. We design permissioned token standards, transfer rules, identity rails, and lifecycle events (NAV, coupons, redemptions) that operations teams can actually run. We solve complex distributed-systems problems on a modern stack, rejecting “good enough” in favor of the engineering rigor required in regulated jurisdictions.",
+        body: "The Protocol Engineering team builds the smart-contract and on-chain infrastructure of the TokenBrickLabs platform. We design permissioned token standards, transfer rules, identity rails, and lifecycle events (NAV, coupons, redemptions) that operators can actually run. We solve complex distributed-systems problems on a modern stack, rejecting “good enough” in favor of the engineering rigor required in regulated jurisdictions.",
       },
     ],
     responsibilities: [
@@ -325,7 +325,7 @@ export const TALENTS: Talent[] = [
       "Integrate blockchain interactions into the frontend using Web3.js / Ethers.js (wallets, transactions, signatures).",
       "Work closely with backend and frontend teams to connect on-chain logic with off-chain services.",
       "Support multi-chain setups (Ethereum / Polygon) and optimize for gas, security, and scalability.",
-      "Contribute to architecture decisions around tokenization, payments, and how on-chain records map to the client’s legal structure.",
+      "Contribute to architecture decisions around tokenization, payments, and how on-chain records map to the legal structure of an asset on the platform.",
     ],
     qualifications: [
       "2–4 years of experience in Web3 or blockchain development.",
@@ -454,7 +454,7 @@ export const TALENTS: Talent[] = [
       "Director, Operations",
       OPERATIONS_CULTURE,
       "The Team: Delivery",
-      "Delivery keeps TokenBrickLabs issuances and platform work sequenced across protocol, product, and vendors. We run roadmaps, audit calendars, and partner integrations with written status — not status theater. The job is to make dependencies and quality bars explicit.",
+      "Delivery keeps development of the TokenBrickLabs platform sequenced across protocol, product, and vendors. We run the roadmap, audit calendar, and partner integrations with written status — not status theater. The job is to make dependencies and quality bars explicit.",
     ),
     responsibilities: [
       "Plan and run delivery cycles across engineering, design, product, and partners.",
@@ -669,14 +669,14 @@ export const TALENTS: Talent[] = [
     slug: "developer-relations-engineer",
     title: "Developer Relations Engineer",
     short: "Developer Relations Engineer",
-    tagline: "Turn TokenBrickLabs APIs and client integrations into tools builders can actually ship with.",
+    tagline: "Turn TokenBrickLabs platform APIs into tools builders can actually ship with.",
     icon: Megaphone,
     department: "Engineering",
     location: "Remote/Hybrid",
     employmentType: "Full-time / Part-time",
     requisitionId: "JR2001250",
     overview: aboutRole(
-      "As a Developer Relations Engineer, you will own the path from our client APIs and contract surfaces to external builders: SDKs, samples, docs, and technical conversations with funds, fintechs, and integrators. You write production-quality code, not slide-deck demos — and you feed what you learn back into the product. The role is open as full-time or part-time.",
+      "As a Developer Relations Engineer, you will own the path from our platform APIs and contract surfaces to external builders: SDKs, samples, docs, and technical conversations with funds, fintechs, and integrators. You write production-quality code, not slide-deck demos — and you feed what you learn back into the platform. The role is open as full-time or part-time.",
     ),
     extraSections: jdExtras(
       "Director, Engineering",

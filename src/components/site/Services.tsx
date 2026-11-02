@@ -12,37 +12,42 @@ const services = [
   {
     icon: Coins,
     title: "RWA tokenization",
-    desc: "Implement permissioned token contracts and lifecycle workflows for real estate, treasuries, commodities, and private credit — as specified with the issuer’s counsel.",
+    desc: "The core of the platform: permissioned token contracts and lifecycle workflows for real estate, treasuries, commodities, and private credit.",
     href: "/services/rwa-tokenization",
     image: rwaImg,
   },
   {
     icon: ShieldCheck,
-    title: "Smart contract assurance",
+    title: "Contract review",
+    desc: "Internal tests and engineering review on the platform’s contracts, with an independent audit commissioned when the threat model requires it.",
     href: "/services/blockchain-development",
     image: auditsImg,
   },
   {
     icon: Layers,
-    title: "L1 / L2 engineering",
+    title: "Chain layer",
+    desc: "Settlement on Ethereum and EVM L2s. The platform does not introduce a new Layer-1.",
     href: "/services/blockchain-development",
     image: layersImg,
   },
   {
     icon: FileCode2,
-    title: "Compliance & identity rails",
+    title: "Identity",
+    desc: "Allowlists, jurisdictional restrictions, and hooks for KYC and accreditation vendors.",
     href: "/services/rwa-tokenization",
     image: complianceImg,
   },
   {
     icon: Network,
-    title: "Transfer & settlement software",
+    title: "Issuance and servicing",
+    desc: "Primary distribution plus the corporate actions — NAV inputs, coupons, redemptions — an administrator actually runs.",
     href: "/services/rwa-tokenization",
     image: liquidityImg,
   },
   {
     icon: Cpu,
-    title: "On-chain analytics & AI",
+    title: "Operator analytics",
+    desc: "Monitoring and exception signals on the platform’s own issuance data. Not a valuation and not investment advice.",
     href: "/services/ai-ml-development",
     image: aiImg,
   },
@@ -53,13 +58,13 @@ export const Services = () => {
     <section id="solutions" className="scroll-mt-24 border-b border-border py-20 md:py-28">
       <div className="container">
         <SectionHeading
-          eyebrow="Services"
+          eyebrow="Platform"
           title={
             <>
-              Engineering for assets that already exist in <span className="text-gradient">the real world</span>
+              What we are building for assets that already exist in <span className="text-gradient">the real world</span>
             </>
           }
-          description="We take tokenization from a counsel-approved term sheet to reviewed contracts, investor onboarding software, and day-two operations — not a slide deck. Third-party audit is separate when the client requires it."
+          description="The company’s focus is its own RWA tokenization platform: contracts, identity, investor onboarding, and day-two operations. The platform is in development. An independent audit is commissioned when the threat model requires it."
         />
 
         <ul className="mt-4 divide-y divide-border border-t border-border">

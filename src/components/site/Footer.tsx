@@ -22,9 +22,9 @@ export const Footer = () => {
               </span>
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-surface-dark-foreground/70">
-              Engineering studio for real-world asset tokenization — issuance software, identity integrations, and
-              operator workflows after launch. Based in {SITE.location}. We do not custody client assets or offer
-              securities.
+              Building our own real-world asset tokenization platform — issuance, identity, and operator workflows.
+              Based in {SITE.location}. The platform is in development. We do not custody assets or offer securities
+              on this site.
             </p>
             <a
               href={`mailto:${SITE.email}`}
@@ -38,11 +38,11 @@ export const Footer = () => {
           <div className="grid gap-10 sm:grid-cols-3 lg:col-span-8">
             <nav aria-label="Footer">
               <p className="font-display text-xs font-semibold uppercase tracking-[0.18em] text-surface-dark-foreground/50">
-                Studio
+                Company
               </p>
               <ul className="mt-4 space-y-2.5">
                 {[
-                  { label: "Services", to: "/#solutions" },
+                  { label: "Platform", to: "/#solutions" },
                   { label: "Company", to: "/company" },
                   { label: "Talent", to: "/talents" },
                   { label: "Docs", to: "/docs" },
@@ -77,7 +77,7 @@ export const Footer = () => {
                 Talk to us
               </p>
               <p className="mt-4 text-sm leading-relaxed text-surface-dark-foreground/70">
-                A 30-minute discovery call. Leave with a sequencing of contracts, identity rails, and custodian integrations.
+                A short call on the platform now in development: issuance, identity, and operator workflows.
               </p>
               <a
                 href={SITE.calendly}

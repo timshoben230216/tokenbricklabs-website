@@ -5,6 +5,19 @@ import { Footer } from "@/components/site/Footer";
 import { Button } from "@/components/ui/button";
 import { DOCS } from "@/data/docs";
 
+const renderText = (text: string) => {
+  const parts = text.split(/(https?:\/\/[^\s]+)/g);
+  return parts.map((part, i) =>
+    part.startsWith("http") ? (
+      <a key={i} href={part} target="_blank" rel="noopener noreferrer" className="break-all text-primary underline underline-offset-4">
+        {part}
+      </a>
+    ) : (
+      <span key={i}>{part}</span>
+    ),
+  );
+};
+
 const DocChapter = () => {
   const { slug } = useParams();
   const idx = DOCS.findIndex((d) => d.slug === slug);
@@ -37,7 +50,7 @@ const DocChapter = () => {
         </section>
 
         <section className="container py-16 max-w-3xl">
-          <p className="text-lg text-foreground/85 leading-relaxed">{chapter.intro}</p>
+          <p className="text-lg text-foreground/85 leading-relaxed">{renderText(chapter.intro)}</p>
 
           <div className="mt-12 space-y-12">
             {chapter.sections.map((sec) => (
@@ -45,7 +58,7 @@ const DocChapter = () => {
                 <h2 className="font-display text-2xl font-semibold tracking-tight text-foreground">{sec.heading}</h2>
                 <div className="mt-4 space-y-4">
                   {sec.body.map((p, i) => (
-                    <p key={i} className="text-foreground/80 leading-relaxed">{p}</p>
+                    <p key={i} className="text-foreground/80 leading-relaxed">{renderText(p)}</p>
                   ))}
                   {sec.bullets && (
                     <ul className="mt-2 space-y-2">

@@ -39,11 +39,12 @@ const LegalShell = ({ title, updated, children }: LegalPageProps) => {
 };
 
 export const Privacy = () => (
-  <LegalShell title="Privacy" updated="October 10, 2026">
+  <LegalShell title="Privacy" updated="November 2, 2026">
     <p>
-      TokenBrickLabs (“we”) operates tokenbricklabs.com as a professional-services website. This notice
-      describes what we collect when you use the site, book a call, or apply for a role. It is not legal advice
-      and is not an offer of employment or securities.
+      TokenBrickLabs (“we”) operates tokenbricklabs.com to describe the RWA tokenization platform we are
+      developing, along with documentation and hiring. This notice describes what we collect when you use the
+      site, book a call, or apply for a role. It is not legal advice and is not an offer of employment or
+      securities.
     </p>
     <h2>What we collect</h2>
     <p>
@@ -70,8 +71,8 @@ export const Privacy = () => (
     </p>
     <h2>Retention and rights</h2>
     <p>
-      We keep correspondence and applications as long as needed for hiring, client relationships, and ordinary
-      legal obligations, then delete or restrict them. To access, correct, or delete information we hold about
+      We keep correspondence and applications as long as needed for hiring, conversations about the platform,
+      and ordinary legal obligations, then delete or restrict them. To access, correct, or delete information we hold about
       you (including a résumé), email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. Depending on your
       location, you may have additional rights under laws such as the CCPA or GDPR; we will handle those
       requests in line with applicable law.
@@ -85,23 +86,24 @@ export const Privacy = () => (
 );
 
 export const Terms = () => (
-  <LegalShell title="Terms of use" updated="October 10, 2026">
+  <LegalShell title="Terms of use" updated="November 2, 2026">
     <p>
-      This website is provided by TokenBrickLabs for information about our studio, documentation, and hiring.
-      It is not an offer of securities, investment advice, a solicitation to buy or sell any instrument, or a
-      commitment to tokenize any particular asset. Tokens discussed in our materials are not legal title to
-      real estate or other property unless a specific, counsel-drafted instrument says so.
+      This website is provided by TokenBrickLabs for information about the RWA tokenization platform we are
+      developing, our documentation, and hiring. The platform is in development. The site is not an offer of
+      securities, investment advice, a solicitation to buy or sell any instrument, or a commitment to tokenize
+      any particular asset. Tokens discussed in our materials are not legal title to real estate or other
+      property unless a specific, counsel-drafted instrument says so.
     </p>
-    <h2>Professional services</h2>
+    <h2>The platform</h2>
     <p>
-      Engineering, review, and advisory work is performed under a separate written agreement. Nothing on this
-      site creates a client relationship. Discovery calls are complimentary and do not bind either party to a
-      build. TokenBrickLabs is not a broker-dealer, ATS, transfer agent, fund administrator, or custodian.
+      Descriptions of the platform may change as development continues. Nothing on this site creates a customer,
+      investor, or client relationship. Calls are complimentary and do not bind either party. TokenBrickLabs is
+      not a broker-dealer, ATS, transfer agent, fund administrator, or custodian.
     </p>
     <h2>Content</h2>
     <p>
-      Documentation describes how we approach client engineering work and may change. It is not a TokenBrickLabs
-      blockchain, native token, or whitepaper for an offering. You may not republish it as your own. You may
+      Documentation describes the platform under development and may change. It is not a TokenBrickLabs
+      blockchain, a native token, or a whitepaper for an offering. You may not republish it as your own. You may
       quote short passages with attribution for commentary or internal evaluation.
     </p>
     <h2>Limitation</h2>
@@ -117,23 +119,22 @@ export const Terms = () => (
 );
 
 export const Security = () => (
-  <LegalShell title="Security" updated="October 10, 2026">
+  <LegalShell title="Security" updated="November 2, 2026">
     <p>
-      TokenBrickLabs treats production smart contracts, keys, and client data as high-risk systems. This page
-      summarizes how we work — not a substitute for an engagement-specific security schedule and not a claim
-      that we are an audit firm.
+      TokenBrickLabs treats the platform’s smart contracts, keys, and personal data as high-risk systems. This
+      page summarizes how we work on the product now in development. It is not a claim that we are an audit firm.
     </p>
     <h2>Engineering practice</h2>
     <p>
-      Contracts are developed with automated tests and internal engineering review. Independent third-party
-      audit, when the asset and threat model require it, is commissioned by the client. We prefer conservative
-      trust assumptions on bridges and oracles.
+      Platform contracts are developed with automated tests and internal engineering review. An independent
+      third-party audit is commissioned when the threat model requires it. We prefer conservative trust
+      assumptions on bridges and oracles.
     </p>
     <h2>Custody and keys</h2>
     <p>
-      We do not take discretionary custody of client or investor assets. Issuance designs integrate custody
-      (MPC / HSM) chosen with the client. Studio secrets and infrastructure credentials are scoped, rotated,
-      and held off developer laptops wherever practical.
+      We do not take discretionary custody of investor assets. The platform is being designed to integrate
+      custody (MPC / HSM) appointed for each asset. Infrastructure credentials are scoped, rotated, and held
+      off developer laptops wherever practical.
     </p>
     <h2>Disclosure</h2>
     <p>

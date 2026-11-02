@@ -33,7 +33,7 @@ const PAGE_LINKS = [
 ];
 
 const SECTION_LINKS = [
-  { label: "Services", href: "/#solutions" },
+  { label: "Platform", href: "/#solutions" },
   { label: "RWA", href: "/#rwa" },
   { label: "Industries", href: "/#industries" },
   { label: "Insights", href: "/#insights" },
@@ -90,7 +90,7 @@ export const Header = () => {
             <SheetContent side="right" className="w-[85vw] max-w-sm">
               <SheetTitle className="font-display text-left text-lg">Menu</SheetTitle>
               <SheetDescription className="sr-only">
-                Studio pages and homepage sections
+                Site pages and homepage sections
               </SheetDescription>
               <nav className="mt-8 flex flex-col gap-1" aria-label="Mobile">
                 {SECTION_LINKS.map((item) => (

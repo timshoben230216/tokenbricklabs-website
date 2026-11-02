@@ -8,31 +8,31 @@ import { SITE } from "@/lib/site";
 const models = [
   {
     icon: Landmark,
-    badge: "Funds & issuers",
-    title: "Tokenized fund stack",
-    desc: "Software for an issuance path your counsel designs: permissioned contracts, transfer-restriction hooks, administrator-supplied NAV inputs, and an investor portal operations teams can use.",
+    badge: "Issuance",
+    title: "Permissioned issuance stack",
+    desc: "The part of the platform that takes a counsel-approved structure into software: permissioned contracts, transfer-restriction hooks, administrator-supplied NAV inputs, and an investor portal.",
     points: [
       "ERC-3643 / T-REX or equivalent permissioned transfer rules",
-      "Allowlists wired to the client’s identity and accreditation vendors",
+      "Allowlists wired to identity and accreditation vendors",
       "Corporate-action workflows (NAV inputs, coupons) as the administrator defines them",
-      "Integrations with custodians and fund admins the client appoints",
+      "Integrations with custodians and fund administrators",
     ],
-    cta: "Book a stack walkthrough",
+    cta: "Talk about the build",
     to: SITE.calendly,
     external: true,
   },
   {
     icon: Building2,
-    badge: "Platform operators",
-    title: "Embedded RWA engine",
-    desc: "Issue, transfer, and settle through APIs and SDKs instead of rebuilding compliance rails, identity, and settlement from scratch.",
+    badge: "Operators",
+    title: "Operator and integrator surface",
+    desc: "APIs, an operator console, and documentation so an asset can be issued and serviced on the platform without rebuilding identity and transfer rules.",
     points: [
-      "REST APIs for issuance and settlement events",
-      "TypeScript and Rust SDKs",
-      "Deployment on EVM networks, and Solana when the client already requires it",
+      "APIs for issuance and servicing events",
+      "An operator console in active development",
+      "Settlement on EVM networks, and Solana only where an asset design requires it",
       "Pluggable KYC and transfer restrictions",
     ],
-    cta: "Read the technical docs",
+    cta: "Read the platform notes",
     to: "/docs",
     external: false,
   },
@@ -43,13 +43,13 @@ export const Models = () => {
     <section id="rwa" className="scroll-mt-24 border-b border-border bg-surface-raised py-20 md:py-28">
       <div className="container">
         <SectionHeading
-          eyebrow="Engagement models"
+          eyebrow="Product"
           title={
             <>
-              Bring the asset on-chain — as a fund, or as <span className="text-gradient">infrastructure</span>
+              One platform, from issuance through <span className="text-gradient">operations</span>
             </>
           }
-          description="First issuance or an existing product that needs rails: we pick the model that matches how you already operate."
+          description="Both surfaces are parts of the TokenBrickLabs platform now in development."
         />
 
         <div className="mt-14 grid gap-px bg-border lg:grid-cols-2">

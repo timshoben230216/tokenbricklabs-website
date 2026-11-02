@@ -1,6 +1,6 @@
 export const SITE = {
   name: "TokenBrickLabs",
-  tagline: "RWA · Blockchain Lab",
+  tagline: "RWA tokenization platform",
   email: "support@tokenbricklabs.com",
   calendly: "https://calendly.com/tokenbricklabs-support/30min",
   location: "Seattle, WA",

@@ -4,23 +4,23 @@ import { Reveal } from "@/components/site/Reveal";
 const steps = [
   {
     n: "01",
-    t: "Discover",
-    d: "Asset workshop, regulatory map, and a written tokenization blueprint with owners and constraints.",
+    t: "Asset model",
+    d: "Write down the asset, the jurisdiction, the parties, and the constraints the platform has to encode.",
   },
   {
     n: "02",
-    t: "Architect",
-    d: "Contract design, chain selection, identity, custody, and administrator integrations — decided before code hardens.",
+    t: "Architecture",
+    d: "Contract design, chain selection, identity, custody integrations, and administrator roles — decided before the implementation hardens.",
   },
   {
     n: "03",
     t: "Build & review",
-    d: "Production engineering with continuous internal review and an independent audit path when the risk warrants it.",
+    d: "Platform engineering with internal review, and an independent audit when the threat model requires it.",
   },
   {
     n: "04",
-    t: "Launch & operate",
-    d: "Mainnet deployment, monitoring, investor onboarding, and the operational runbooks your team keeps after we leave.",
+    t: "Operate",
+    d: "Deployment, monitoring, investor onboarding, and the runbooks operators keep using after issuance.",
   },
 ];
 
@@ -30,8 +30,8 @@ export const Process = () => {
       <div className="container">
         <SectionHeading
           eyebrow="Process"
-          title="From term sheet to mainnet without a six-month archaeology project"
-          description="A written sequence so the surprises stay in the asset and the jurisdiction, not in undocumented software."
+          title="How the platform moves from structure to software"
+          description="The sequence we are using to build TokenBrickLabs’ RWA tokenization platform, so the open questions stay in the asset and the jurisdiction."
         />
 
         <ol className="mt-14 grid gap-px bg-surface-dark-foreground/10 md:grid-cols-2 lg:grid-cols-4">

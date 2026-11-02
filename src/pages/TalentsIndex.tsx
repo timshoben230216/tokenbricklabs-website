@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 const VALUES = [
   {
     title: "Craft over theater",
-    body: "We ship systems institutions can operate — contracts, identity integrations, operator workflows — not slide-deck prototypes.",
+    body: "We are building a platform institutions can operate — contracts, identity, operator workflows — not a slide-deck prototype.",
   },
   {
     title: "High ownership, low ceremony",
@@ -52,7 +52,7 @@ const TalentsIndex = () => {
     if (desc) {
       desc.setAttribute(
         "content",
-        "Open roles at TokenBrickLabs. Join a remote-first studio building RWA tokenization software — engineering, design, product, and operations.",
+        "Open roles at TokenBrickLabs. Join a remote-first team building our RWA tokenization platform — engineering, design, product, and operations.",
       );
     }
   }, []);
@@ -81,9 +81,9 @@ const TalentsIndex = () => {
                   Build the rails for <span className="text-gradient">real-world assets</span>
                 </h1>
                 <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted-foreground">
-                  TokenBrickLabs is a Seattle-based studio hiring globally. We design, review, and deploy
-                  tokenization software for funds, fintechs, and operators. We do not take discretionary custody
-                  of assets.
+                  TokenBrickLabs is a Seattle-based team hiring globally to build our own RWA tokenization
+                  platform. The work is permissioned issuance, identity, and operator workflows. We do not
+                  take discretionary custody of assets.
                 </p>
               </div>
               <dl className="grid grid-cols-3 gap-6 border-t border-border pt-6 lg:border-t-0 lg:pt-0">

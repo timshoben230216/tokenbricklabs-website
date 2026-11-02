@@ -4,9 +4,9 @@ import { DOCS } from "@/data/docs";
 import { SectionHeading } from "@/components/site/SectionHeading";
 
 const picks = [
-  DOCS.find((d) => d.slug === "challenges")!,
-  DOCS.find((d) => d.slug === "vision")!,
-  DOCS.find((d) => d.slug === "consensus")!,
+  DOCS.find((d) => d.slug === "executive-summary")!,
+  DOCS.find((d) => d.slug === "introduction")!,
+  DOCS.find((d) => d.slug === "strategic-vision")!,
 ];
 
 export const Insights = () => {
@@ -18,10 +18,10 @@ export const Insights = () => {
           eyebrow="Insights"
           title={
             <>
-              Architecture notes for <span className="text-gradient">engineers and counsel</span>
+              Chapters from the <span className="text-gradient">whitepaper</span>
             </>
           }
-          description="Long-form chapters on constraints, delivery scope, and trust assumptions — not a protocol token or a public network paper."
+          description="The public information edition on real-world asset tokenisation: the five-pillar target ecosystem, the lifecycle, and the limits of what a token represents."
         />
 
         <ul className="mt-14 divide-y divide-border border-y border-border">

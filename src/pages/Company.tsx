@@ -37,21 +37,21 @@ const Company = () => {
           <div className="container py-24 lg:py-32 max-w-5xl">
             <Eyebrow>About · TokenBrickLabs</Eyebrow>
             <h1 className="mt-6 font-display text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-[-0.03em] leading-[1.05]">
-              A studio for tokenizing
+              Building a platform for
               <br className="hidden md:block" />{" "}
               <span className="text-gradient">real-world assets</span>
             </h1>
             <p className="mt-7 max-w-2xl text-lg md:text-xl leading-relaxed text-muted-foreground font-normal">
-              We're a Seattle-based, remote-first studio of engineers, designers and operators
-              building tokenization software — often starting with real estate structures designed
-              by the issuer’s counsel. We are a privately held services company, not a public
-              protocol or an exchange.
+              We're a Seattle-based, remote-first team of engineers, designers, and operators.
+              Our current focus is our own RWA tokenization platform, starting with real estate
+              structures designed with counsel. We are a privately held product company. The
+              platform is in development — not a public protocol, an exchange, or an offering.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-x-10 gap-y-4 text-sm">
               {[
                 ["Studio", "Remote-first"],
                 ["Base", "Seattle, WA"],
-                ["Focus", "RWA engineering"],
+                ["Focus", "Our RWA platform"],
               ].map(([k, v]) => (
                 <div key={k} className="flex flex-col">
                   <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
@@ -72,13 +72,13 @@ const Company = () => {
               <div>
                 <Eyebrow>Company · Introduction</Eyebrow>
                 <h2 className="mt-5 font-display text-3xl sm:text-4xl md:text-5xl font-bold tracking-[-0.02em] leading-[1.1]">
-                  The tables where structure becomes <span className="text-gradient">software</span>
+                  The tables where the platform becomes <span className="text-gradient">software</span>
                 </h2>
                 <p className="mt-7 text-base md:text-lg leading-relaxed text-muted-foreground">
-                  TokenBrickLabs is a Seattle studio of engineers, designers, and operators. We design, review, and
-                  deploy tokenization software that funds, fintechs, and asset operators can run — issuance
-                  contracts, identity integrations, and operator workflows. Custody, fund administration, and any
-                  secondary venue are appointed by the client.
+                  TokenBrickLabs is a Seattle team of engineers, designers, and operators developing one
+                  tokenization platform — issuance contracts, identity integrations, and operator workflows.
+                  Custody, fund administration, and any secondary venue stay with the parties appointed for
+                  each asset. We do not take discretionary custody.
                 </p>
               </div>
               <figure className="overflow-hidden rounded-2xl border border-border/70 shadow-soft">
@@ -97,13 +97,13 @@ const Company = () => {
 
               <div>
                 <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
-                  We sit with the asset, the jurisdiction, and the operating reality first. Real estate is where we
-                  start. The standard is production, not theater.
+                  We start with the asset, the jurisdiction, and the operating reality. Real estate is the first
+                  class on the platform. The standard is production software, and the platform is still in development.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Button variant="hero" size="lg" asChild>
                     <a href={SITE.calendly} target="_blank" rel="noopener noreferrer">
-                      Book a discovery call
+                      Book a call
                     </a>
                   </Button>
                   <Button variant="soft" size="lg" asChild>
@@ -127,7 +127,7 @@ const Company = () => {
                 Based in <span className="text-gradient">Seattle</span>
               </h2>
               <p className="mt-5 text-base md:text-lg leading-relaxed text-muted-foreground">
-                We are a remote-first studio with a Seattle, Washington base. We do not publish a
+                We are a remote-first team with a Seattle, Washington base. We do not publish a
                 walk-in street address on this site. Reach us by email or a booked call.
               </p>
             </div>

@@ -12,7 +12,7 @@ import { Footer } from "@/components/site/Footer";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "TokenBrickLabs — RWA Tokenization & Blockchain Development";
+    document.title = "TokenBrickLabs — RWA Tokenization Platform";
   }, []);
 
   return (
